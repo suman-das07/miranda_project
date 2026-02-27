@@ -1,3 +1,8 @@
+@font-face {
+    font-family: domaine;
+    src: url(./fonts/DomaineDispCondMedium.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,4 +41,140 @@ html, body{
 .nav i{
     width: 30%;
     text-align: right;
+}
+
+.section{
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 30px;
+
+}
+
+.section .sec-1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.section .sec-2 {
+    width: 35%;
+    height: 100%;
+    /* background-color: blue; */
+    border-left: 1px solid #595959;
+    padding: 20px 80px;
+    text-align: center;
+    border-right: 1px solid #595959;
+}
+.section .sec-3 {
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.sec-1 .image-div{
+    height: 55%;
+    width: 100%;
+    overflow: hidden;
+}
+.sec-3 .image-div {
+    height: 55%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease-in-out 0.43s;
+}
+.image-div:hover img {
+    scale: 1.1;
+
+}
+
+.sec-1 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+
+}
+.sec-1 h4 span{
+    background-color: #B83C12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.sec-1 p{
+    font-size: 22px;
+    font-family: domaine;
+    font-weight: 100;
+    color: #515151;
+}
+
+.sec-3 h4 {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: canopee;
+
+}
+
+.sec-3 h4 span {
+    background-color: #B83C12;
+    color: #C4BCB3;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.sec-3 p {
+    font-size: 22px;
+    font-family: domaine;
+    font-weight: 100;
+    color: #515151;
+}
+
+.sec-2 h2{
+    font-family: canopee;
+    font-size: 75px;
+    font-weight: 100;
+
+}
+.sec-2 h3 {
+    font-family: domaine;
+    font-size: 45px;
+    font-weight: 100;
+    margin-top: 10px;
+    color: #2f2f2f;
+
+}
+.sec-2 h5 span {
+    font-family: domaine;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: black;
+
+}
+.sec-2 h5 {
+    font-family: domaine;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 10px;
+    color: #2f2f2f;
+
+}
+
+.page1 h1{
+    font-family: canopee;
+    font-size: 550px;
 }
